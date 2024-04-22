@@ -27,6 +27,7 @@ const HomeContainer = () => {
         } else {
             setStateValue(JSON.parse(x));
         }
+        // eslint-disable-next-line 
     }, []);
 
     function setStateValue(userData) {
